@@ -57,5 +57,22 @@
         <mj-text>Ces bornes sont en stock chez nos grossistes et les offres sont valables dans la limite des stocks disponibles, profitez dès maintenant de ces offres chez nos distributeurs Also, Ingram, Tech Data.</mj-text>
       </mj-column>
     </mj-section>
+    <mj-section>
+      <mj-column>
+        <mj-image padding="0" width="350px" src="./images/promo25.png" alt=""></mj-image>
+      </mj-column>
+      <mj-column>
+        <mj-text>WAC540</mj-text>
+        <mj-text>WiFi 5 AC3000 3 Gbit/s(400/867/1733 Mbps)</mj-text>
+        <mj-text>Tri band 4x4(2.4/5/5 GHz)</mj-text>
+        <mj-text>2 ports Ethernet 1 Gbit/s</mj-text>
+        <mj-text>Alimentable en PoE+</mj-text>
+        <mj-text>Management web local ou à distance via Insight (licence 1 an offerte)</mj-text>
+        <mj-text>Garantie 5 ans </mj-text>
+        <mj-text>Al'unité(-25%) : WAC540-1000S</mj-text>
+        <mj-text>En pack de 3 (-25%) : WAC540B03-10000S</mj-text>
+        <mj-button>En savoir plus</mj-button>
+      </mj-column>
+    </mj-section>
   </mj-body>
 </mjml>
