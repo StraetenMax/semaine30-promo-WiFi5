@@ -74,5 +74,22 @@
         <mj-button>En savoir plus</mj-button>
       </mj-column>
     </mj-section>
+    <mj-section direction="rtl">
+      <mj-column>
+        <mj-image padding="0" width="350px" src="./images/promo30.png" alt=""/>
+      </mj-column>
+      <mj-column>
+        <mj-text>WAC510</mj-text>
+        <mj-text>WiFi 5 AC1300 1.3 Gbit/s (400 / 867 Mbps)</mj-text>
+        <mj-text>Dual band 2 x 2 (2.4 / 5.0 GHz)</mj-text>
+        <mj-text>2 ports Ethernet 1 Gbit</mj-text>
+        <mj-text>Alimentable en PoE+</mj-text>
+        <mj-text>Management web local ou à distance via Insight (licence 1 an offerte)</mj-text>
+        <mj-text>Garantie 5 ans</mj-text>
+        <mj-text>A l'unité (-30%) : WAC510-1000S</mj-text>
+        <mj-text>En pack de 3 (-20%) : WAC510B03-10000S</mj-text>
+        <mj-button>En savoir plus</mj-button>
+      </mj-column>
+    </mj-section>
   </mj-body>
 </mjml>
