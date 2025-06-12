@@ -21,7 +21,7 @@
       <mj-class name="T20-500" font-family="Arial, Helvetica, sans-serif" font-style="normal" font-size="20px" line-height="35px" font-weight="500"/>
       <mj-class name="T20-300" font-family="&quot;Source Sans 3&quot;, Arial, Helvetica, sans-serif" font-style="normal" font-size="20px" line-height="35px" font-weight="300"/>
       <mj-class name="T18-500" font-family="Arial, Helvetica, sans-serif" font-style="normal" font-size="18px" line-height="25px" font-weight="500"/>
-      <mj-class name="T17-500" font-family="Arial, Helvetica, sans-serif" font-style="normal" font-size="17px" line-height="24px" font-weight="500"/>
+      <mj-class name="T17-400" font-family="Arial, Helvetica, sans-serif" font-style="normal" font-size="17px" line-height="22px" font-weight="400"/>
       <mj-class name="T15-500" font-family="Arial, Helvetica, sans-serif" font-style="normal" font-size="15px" line-height="22px" font-weight="500"/>
       <mj-class name="T16-500" font-family="Arial, Helvetica, sans-serif" font-style="normal" font-size="16px" line-height="20px" font-weight="500"/>
       <mj-class name="T15-300" font-family="&quot;Source Sans 3&quot;, Arial, Helvetica, sans-serif" font-style="normal" font-size="15px" line-height="18px" font-weight="300"/>
@@ -50,11 +50,13 @@
       </mj-group>
     </mj-section>
     <mj-section padding="0" mj-class="bgW">
-      <mj-column>
+      <mj-column width="100%" padding="0">
         <mj-image padding="0" width="700px" src="./images/borne30.jpg" alt=""/>
-        <mj-text>Retrouvez dans ce mail une sélection d'offres spéciales incontournables sur nos points d'accès professionnels WiFi 5.</mj-text>
-        <mj-text><strong>Les points d'accès WAC540 et WAC510 sont des bornes 802.11ac PoE conçues pour les besoins des entreprises. Simples à mettre en place,</strong> elles disposentd'une <strong>interface Web manageable</strong> et sont intégrables à notre solution de gestion dans le <strong>Cloud 'Insight'</strong>.</mj-text>
-        <mj-text>Ces bornes sont en stock chez nos grossistes et les offres sont valables dans la limite des stocks disponibles, profitez dès maintenant de ces offres chez nos distributeurs Also, Ingram, Tech Data.</mj-text>
+      </mj-column>
+      <mj-column width="100%" padding="35px 50px 10px 50px">
+        <mj-text align="left" padding="0" padding-bottom="30px" mj-class="T17-400 cT0">Retrouvez dans ce mail une sélection d'offres spéciales incontournables sur nos points d'accès professionnels WiFi 5.</mj-text>
+        <mj-text align="left" padding="0" padding-bottom="30px" mj-class="T17-400 cT0"><strong>Les points d'accès WAC540 et WAC510 sont des bornes 802.11ac PoE conçues pour les besoins des entreprises. Simples à mettre en place,</strong> elles disposentd'une <strong>interface Web manageable</strong> et sont intégrables à notre solution de gestion dans le <strong>Cloud 'Insight'</strong>.</mj-text>
+        <mj-text align="left" padding="0" padding-bottom="30px" mj-class="T17-400 cT0">Ces bornes sont en stock chez nos grossistes et les offres sont valables dans la limite des stocks disponibles, profitez dès maintenant de ces offres chez nos distributeurs Also, Ingram, Tech Data.</mj-text>
       </mj-column>
     </mj-section>
     <mj-section>
