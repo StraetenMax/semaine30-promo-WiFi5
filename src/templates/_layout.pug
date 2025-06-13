@@ -19,12 +19,14 @@ mjml
             mj-class(name='T30-300' font-family='"Source Sans 3", Arial, Helvetica, sans-serif' font-style="normal" font-size='30px' line-height='40px' font-weight='300')/
             mj-class(name='T20-500' font-family="Arial, Helvetica, sans-serif" font-style="normal" font-size='20px' line-height='35px' font-weight='500')/
             mj-class(name='T20-300' font-family='"Source Sans 3", Arial, Helvetica, sans-serif' font-style="normal" font-size='20px' line-height='35px' font-weight='300')/
+            mj-class(name='T24-500' font-family='"Source Sans 3", Arial, Helvetica, sans-serif' font-style="normal" font-size='24px' line-height='28px' font-weight='500')/
             mj-class(name='T18-500' font-family='Arial, Helvetica, sans-serif' font-style="normal" font-size='18px' line-height='25px' font-weight='500')/
             mj-class(name='T17-400' font-family='Arial, Helvetica, sans-serif' font-style="normal" font-size='17px' line-height='22px' font-weight='400')/
             mj-class(name='T15-500' font-family="Arial, Helvetica, sans-serif" font-style="normal" font-size='15px' line-height='22px' font-weight='500')/
             mj-class(name='T16-500' font-family="Arial, Helvetica, sans-serif" font-style="normal" font-size='16px' line-height='20px' font-weight='500')/
             mj-class(name='T15-300' font-family='"Source Sans 3", Arial, Helvetica, sans-serif' font-style="normal" font-size='15px' line-height='18px' font-weight="300")/
-            mj-class(name='T12-400' font-family='"Source Sans 3", Arial, Helvetica, sans-serif' font-style="normal" font-size='12px' line-height='13px' font-weight="400")/
+            mj-class(name='T14-400' font-family='"Source Sans 3", Arial, Helvetica, sans-serif' font-style="normal" font-size='14px' line-height='20px' font-weight="400")/
+            mj-class(name='T12-400' font-family='"Source Sans 3", Arial, Helvetica, sans-serif' font-style="normal" font-size='12px' line-height='14px' font-weight="400")/
             mj-class(name='T9-300' font-family='"Source Sans 3", Arial, Helvetica, sans-serif' font-style="normal" font-size='9px' line-height='11px' font-weight="300")/
             mj-button(padding="0" inner-padding="10px 45px" border-radius="20px" font-family='"Source Sans 3", Arial, Helvetica, sans-serif' font-style="normal" font-size='16px' line-height='20px' font-weight='700' text-transform="uppercase")
             //- Black colors text
@@ -34,8 +36,8 @@ mjml
             mj-class(name="cTW" color="#ffffff")/
             mj-class(name="bgW" background-color="#ffffff")/
             //- Colors
-            mj-class(name="cB" color="#00A4DE")/
-            mj-class(name="bgB" background-color="#00A4DE")/
+            mj-class(name="cB" color="#73389B")/
+            mj-class(name="bgB" background-color="#73389B")/
         mj-breakpoint(width="480px")
     //- Body
     mj-body(background-color='#f1f0f0' width="700px")
@@ -44,6 +46,9 @@ mjml
         //- bloc header
         block header
             include ../includes/_header
+        mj-section(padding="0")
+            mj-column
+                mj-spacer(height="3px")
         //- bloc produits 1
         block prod01
             include ../includes/_prod01

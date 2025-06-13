@@ -20,12 +20,14 @@
       <mj-class name="T30-300" font-family="&quot;Source Sans 3&quot;, Arial, Helvetica, sans-serif" font-style="normal" font-size="30px" line-height="40px" font-weight="300"/>
       <mj-class name="T20-500" font-family="Arial, Helvetica, sans-serif" font-style="normal" font-size="20px" line-height="35px" font-weight="500"/>
       <mj-class name="T20-300" font-family="&quot;Source Sans 3&quot;, Arial, Helvetica, sans-serif" font-style="normal" font-size="20px" line-height="35px" font-weight="300"/>
+      <mj-class name="T24-500" font-family="&quot;Source Sans 3&quot;, Arial, Helvetica, sans-serif" font-style="normal" font-size="24px" line-height="28px" font-weight="500"/>
       <mj-class name="T18-500" font-family="Arial, Helvetica, sans-serif" font-style="normal" font-size="18px" line-height="25px" font-weight="500"/>
       <mj-class name="T17-400" font-family="Arial, Helvetica, sans-serif" font-style="normal" font-size="17px" line-height="22px" font-weight="400"/>
       <mj-class name="T15-500" font-family="Arial, Helvetica, sans-serif" font-style="normal" font-size="15px" line-height="22px" font-weight="500"/>
       <mj-class name="T16-500" font-family="Arial, Helvetica, sans-serif" font-style="normal" font-size="16px" line-height="20px" font-weight="500"/>
       <mj-class name="T15-300" font-family="&quot;Source Sans 3&quot;, Arial, Helvetica, sans-serif" font-style="normal" font-size="15px" line-height="18px" font-weight="300"/>
-      <mj-class name="T12-400" font-family="&quot;Source Sans 3&quot;, Arial, Helvetica, sans-serif" font-style="normal" font-size="12px" line-height="13px" font-weight="400"/>
+      <mj-class name="T14-400" font-family="&quot;Source Sans 3&quot;, Arial, Helvetica, sans-serif" font-style="normal" font-size="14px" line-height="20px" font-weight="400"/>
+      <mj-class name="T12-400" font-family="&quot;Source Sans 3&quot;, Arial, Helvetica, sans-serif" font-style="normal" font-size="12px" line-height="14px" font-weight="400"/>
       <mj-class name="T9-300" font-family="&quot;Source Sans 3&quot;, Arial, Helvetica, sans-serif" font-style="normal" font-size="9px" line-height="11px" font-weight="300"/>
       <mj-button padding="0" inner-padding="10px 45px" border-radius="20px" font-family="&quot;Source Sans 3&quot;, Arial, Helvetica, sans-serif" font-style="normal" font-size="16px" line-height="20px" font-weight="700" text-transform="uppercase"></mj-button>
       <mj-class name="cT1" color="#2c262d"/>
@@ -33,8 +35,8 @@
       <mj-class name="cT0" color="#000000"/>
       <mj-class name="cTW" color="#ffffff"/>
       <mj-class name="bgW" background-color="#ffffff"/>
-      <mj-class name="cB" color="#00A4DE"/>
-      <mj-class name="bgB" background-color="#00A4DE"/>
+      <mj-class name="cB" color="#73389B"/>
+      <mj-class name="bgB" background-color="#73389B"/>
     </mj-attributes>
     <mj-breakpoint width="480px"></mj-breakpoint>
   </mj-head>
@@ -59,21 +61,46 @@
         <mj-text align="left" padding="0" padding-bottom="30px" mj-class="T17-400 cT0">Ces bornes sont en stock chez nos grossistes et les offres sont valables dans la limite des stocks disponibles, profitez dès maintenant de ces offres chez nos distributeurs Also, Ingram, Tech Data.</mj-text>
       </mj-column>
     </mj-section>
-    <mj-section mj-class="bgW">
+    <mj-section padding="0">
+      <mj-column>
+        <mj-spacer height="3px"></mj-spacer>
+      </mj-column>
+    </mj-section>
+    <mj-section padding="0" mj-class="bgW">
       <mj-column>
         <mj-image padding="0" width="350px" src="./images/promo25.png" alt=""></mj-image>
       </mj-column>
       <mj-column padding="20px 30px 10px 20px">
-        <mj-text align="left">WAC540</mj-text>
-        <mj-text align="left" padding="0" padding-bottom="5px">&#x2022; <strong>WiFi 5 AC3000</strong> 3 Gbit/s(400/867/1733 Mbps)</mj-text>
-        <mj-text align="left" padding="0" padding-bottom="5px">&#x2022; <strong>Tri band</strong> 4x4(2.4/5/5 GHz)</mj-text>
-        <mj-text align="left" padding="0" padding-bottom="5px">&#x2022; 2 ports Ethernet <strong>1 Gbit/s</strong></mj-text>
-        <mj-text align="left" padding="0" padding-bottom="5px">&#x2022; Alimentable en <strong>PoE+</strong></mj-text>
-        <mj-text align="left" padding="0" padding-bottom="5px">&#x2022; <strong>Management</strong> web local ou à distance via <strong>Insight</strong> (licence 1 an offerte)</mj-text>
-        <mj-text align="left" padding="0" padding-bottom="5px">&#x2022; Garantie <strong>5 ans</strong></mj-text>
-        <mj-text align="center">Al'unité(-25%) : WAC540-1000S</mj-text>
-        <mj-text align="center">En pack de 3 (-25%) : WAC540B03-10000S</mj-text>
-        <mj-button>En savoir plus</mj-button>
+        <mj-text align="left" padding="0" padding-bottom="15px" mj-class="T24-500 cB" letter-spacing="0.5px">WAC540</mj-text>
+        <mj-table mj-class="T14-400 cT1" padding="0" width="100%" cellpadding="0" cellspacing="0">
+          <tr>
+            <td style="padding-bottom:5px">&#x2022;</td>
+            <td style="padding-bottom:5px;padding-left:20px"><strong>WiFi 5 AC3000</strong> 3 Gbit/s(400/867/1733 Mbps)</td>
+          </tr>
+          <tr>
+            <td style="padding-bottom:5px">&#x2022;</td>
+            <td style="padding-bottom:5px;padding-left:20px"><strong>Tri band</strong> 4x4(2.4/5/5 GHz)</td>
+          </tr>
+          <tr>
+            <td style="padding-bottom:5px">&#x2022;</td>
+            <td style="padding-bottom:5px;padding-left:20px">2 ports Ethernet <strong>1 Gbit/s</strong></td>
+          </tr>
+          <tr>
+            <td style="padding-bottom:5px">&#x2022;</td>
+            <td style="padding-bottom:5px;padding-left:20px">Alimentable en <strong>PoE+</strong></td>
+          </tr>
+          <tr>
+            <td style="padding-bottom:5px;">&#x2022;</td>
+            <td style="padding-bottom:5px;padding-left:20px"><strong>Management</strong> web local ou à distance via <strong>Insight</strong> (licence 1 an offerte)</td>
+          </tr>
+          <tr>
+            <td style="padding-bottom:5px">&#x2022;</td>
+            <td style="padding-bottom:5px;padding-left:20px">Garantie <strong>5 ans</strong></td>
+          </tr>
+        </mj-table>
+        <mj-text align="center" padding="0" padding-top="10px" mj-class="T14-400 cB"><strong>A l'unité(-25%) :</strong> WAC540-1000S</mj-text>
+        <mj-text align="center" padding="0" padding-bottom="5px" mj-class="T14-400 cB"><strong>En pack de 3 (-25%) :</strong> WAC540B03-10000S</mj-text>
+        <mj-button padding="10px 0" inner-padding="12px 20px" mj-class="T12-400 bgB" text-transform="uppercase" letter-spacing="1px"><strong>En savoir plus</strong></mj-button>
       </mj-column>
     </mj-section>
     <mj-section direction="rtl">
