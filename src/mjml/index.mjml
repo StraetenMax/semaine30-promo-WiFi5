@@ -25,9 +25,11 @@
       <mj-class name="T17-400" font-family="Arial, Helvetica, sans-serif" font-style="normal" font-size="17px" line-height="22px" font-weight="400"/>
       <mj-class name="T15-500" font-family="Arial, Helvetica, sans-serif" font-style="normal" font-size="15px" line-height="22px" font-weight="500"/>
       <mj-class name="T16-500" font-family="Arial, Helvetica, sans-serif" font-style="normal" font-size="16px" line-height="20px" font-weight="500"/>
+      <mj-class name="T16-400" font-family="Arial, Helvetica, sans-serif" font-style="normal" font-size="16px" line-height="30px" font-weight="400"/>
       <mj-class name="T15-300" font-family="&quot;Source Sans 3&quot;, Arial, Helvetica, sans-serif" font-style="normal" font-size="15px" line-height="18px" font-weight="300"/>
       <mj-class name="T14-400" font-family="&quot;Source Sans 3&quot;, Arial, Helvetica, sans-serif" font-style="normal" font-size="14px" line-height="20px" font-weight="400"/>
-      <mj-class name="T12-400" font-family="&quot;Source Sans 3&quot;, Arial, Helvetica, sans-serif" font-style="normal" font-size="12px" line-height="14px" font-weight="400"/>
+      <mj-class name="T13-400" font-family="&quot;Source Sans 3&quot;, Arial, Helvetica, sans-serif" font-style="normal" font-size="13px" line-height="15px" font-weight="400"/>
+      <mj-class name="T12-400" font-family="&quot;Source Sans 3&quot;, Arial, Helvetica, sans-serif" font-style="normal" font-size="12px" line-height="15px" font-weight="400"/>
       <mj-class name="T9-300" font-family="&quot;Source Sans 3&quot;, Arial, Helvetica, sans-serif" font-style="normal" font-size="9px" line-height="11px" font-weight="300"/>
       <mj-button padding="0" inner-padding="10px 45px" border-radius="20px" font-family="&quot;Source Sans 3&quot;, Arial, Helvetica, sans-serif" font-style="normal" font-size="16px" line-height="20px" font-weight="700" text-transform="uppercase"></mj-button>
       <mj-class name="cT1" color="#2c262d"/>
@@ -171,25 +173,25 @@
         <mj-spacer height="3px"/>
       </mj-column>
     </mj-section>
-    <mj-section>
+    <mj-section padding="14px 14px 30px 14px" mj-class="bgW">
       <mj-column>
-        <mj-text>*Offres spéciales partenaires valables chez les distributeurs officiels ALSO, EXERTIS, INGRAM, TECH DATA jusqu'au 24/09/2021 dans la limite des stocks facturables. Non cumulables avec d'autres offres spéciales.</mj-text>
+        <mj-text align="center" padding="0" mj-class="T12-400 cT1">*Offres spéciales partenaires valables chez les distributeurs officiels ALSO, EXERTIS, INGRAM, TECH DATA jusqu'au 24/09/2021 dans la limite des stocks facturables. Non cumulables avec d'autres offres spéciales.</mj-text>
       </mj-column>
     </mj-section>
-    <mj-section>
-      <mj-column>
-        <mj-text>Appelez notre équipe d'experts pour un conseil personnalisé sur votre déploiement WiFi </mj-text>
+    <mj-section padding="10px" mj-class="bgW">
+      <mj-column width="100%">
+        <mj-text align="center" padding="0" padding-bottom="43px" mj-class="T24-500 cB">Appelez notre équipe d'experts pour un conseil personnalisé sur votre déploiement WiFi </mj-text>
       </mj-column>
-      <mj-column>
-        <mj-image src="./images/cartouche.png"/>
+      <mj-column width="50%" vertical-align="top">
+        <mj-image padding="0" width="200px" src="./images/cartouche.png" alt=""/>
       </mj-column>
-      <mj-column>
-        <mj-text> <img src="./images/phone.png"/>01 39 23 99 59</mj-text>
-        <mj-text><img src="./images/email.png"/>reponserapide@netgear.com</mj-text>
-        <mj-text><img src="./images/web.jpg"/>netgear-responsable.fr</mj-text>
+      <mj-column width="50%" vertical-align="top">
+        <mj-text padding="0" align="center" mj-class="T16-400 cT1"> <img padding="0" vertical-align="center" width="11px" src="./images/phone.png"/><strong style="vertical-align:center;padding:0 10px;">01 39 23 99 59</strong></mj-text>
+        <mj-text padding="0" align="center" mj-class="T16-400 cT1"><img padding="0" vertical-align="center" width="20px" src="./images/email.png"/><strong style="vertical-align:center;padding:0 10px;">reponserapide@netgear.com</strong></mj-text>
+        <mj-text padding="0" align="center" padding-bottom="28px" mj-class="T16-400 cT1"><img padding="0" vertical-align="center" width="20px" src="./images/web.jpg"/><strong style="vertical-align:center;padding:0 10px;">netgear-responsable.fr</strong></mj-text>
       </mj-column>
-      <mj-column>
-        <mj-text>NETGEAR - 2 rue de Marly le roi, 78150 LE CHESNAY</mj-text>
+      <mj-column width="100%">
+        <mj-text padding="0" align="center" padding-bottom="28px" mj-class="T14-400 cT1">NETGEAR - 2 rue de Marly le roi, 78150 LE CHESNAY</mj-text>
         <mj-social>
           <mj-social-element name="facebook" href="https://www.facebook.com/NetgearFrance"></mj-social-element>
           <mj-social-element name="twitter" href="https://twitter.com/NetgearFrance"></mj-social-element>
